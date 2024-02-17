@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sahyog Seva</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css>
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/logo_web_final1.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="emergencyinfo.html">EMERGENCY INFO</a></li>
+                <li><a href="safetyandtip.html">SAFETY AND TIPS</a></li>
+                <li><a href="Shelter_location.html">MAP</a></li>
+                <li><a href="Emergencycontact.html">EMERGENCY CONTACTS</a></li>
+                <li><a href="News.html">NEWS FEED</a></li>
+                <li><a href="contact us.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+<div class="text-box">
+    <h1>Sahyog Seva</h1>
+    <p>In crises, Sahyog Seva stands tall, offering immediate aid and building resilience.<br>Together, we redefine solidarity and make a lasting impact.</p>
+    <a href="emergencyinfo.html" class="main-screen-btn">Emergency Info</a>
+</div>
+</section>
+<section class="home_info2">
+    <h1>Our Mission: Bridging Hope in Emergencies</h1>
+    <p>At Sahyog Seva, our mission is clear to bridge the gap between despair and hope in times of emergencies. We provide swift and compassionate aid, ensuring that no one faces adversity alone. From delivering essential supplies to offering a comforting presence, our dedicated team stands ready to respond. We believe in the power of collective action, turning crises into opportunities for unity and resilience. Join us as we strive to make a lasting impact, one act of compassion at a time.</p>
+    <div class="home_row">
+        <div class="home_row_col2">
+            <a href="emergencyinfo.html">
+                <img src="images/1e1.webp" alt="Emergency Info">
+                <div class="layer">
+                    <h3>Emergency Info</h3>
+                </div>
+            </a>
+        </div>
+        <div class="home_row_col2">
+            <a href="">
+                <img src="images/safe1.webp" alt="Safety and Tips">
+                <div class="layer">
+                    <h3>Safety and Tips</h3>
+                </div>
+            </a>
+        </div>
+        <div class="home_row_col2">
+            <a href="Shelter_location.html">
+                <img src="images/mapf1.jpg" alt="Shelter Near Me">
+                <div class="layer">
+                    <h3>Shelter Near Me</h3>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+<section class="home_info">
+    <h1>Why Connect? Uniting Voices for a Stronger Impact</h1>
+    <p>Connecting with Sahyog Seva through social media and sharing your contact information is more than just staying informed; it's about amplifying our collective impact. Your engagement allows us to unite voices, reaching farther and wider to build a network of support that is responsive, compassionate, and effective. Join us in making a difference, one connection at a time.</p>
+    <div class="home_row">
+        <div class="home_row_col">
+            <a class="indexanckor" href="News.html"><h3>Social Media</h3></a>
+            <a class="indexanckor" href="News.html"><p>Stay connected, stay informed! Follow us on social media for instant updates.</p></a>
+        </div>
+        <div class="home_row_col">
+            <a class="indexanckor" href="Emergencycontact.html"><h3>Emergency Contact List</h3></a>
+            <a class="indexanckor" href="Emergencycontact.html"><p>Swift response is crucial in emergencies.Knowing emergency contact, ensuring immediate assistance.</p></a>
+        </div>
+        <div class="home_row_col">
+            <a class="indexanckor" href="contact us.html"><h3>Contact Us</h3></a>
+            <a class="indexanckor" href="contact us.html"><p>Let's stay in touch! Share your contact number with us for the latest updates and exclusive news.</p></a>
+        </div>
+    </div>
+</section>
+<hr>
+<section class="footer">
+    <h4>About Sahyog Seva</h4>
+    <p>Sahyog Seva is dedicated to connecting hearts and relieving emergencies with prompt and compassionate aid.Our goal is to build a network of support,<br> uniting individuals and communities in times of need. Join us in making a positive impact and spreading hope.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        | <i class="fa-brands fa-square-instagram"></i>
+        | <i class="fa-brands fa-twitter"></i>
+        | <i class="fa-brands fa-square-x-twitter"></i>
+        | <i class="fa-brands fa-youtube"></i>
+    </div>
+</section>
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>
