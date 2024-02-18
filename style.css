@@ -327,7 +327,7 @@ h3{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(contactbg.png);
+    background: url(images/contactbg.png);
     background-size: cover;
 }
 .contact_us_contact h1
