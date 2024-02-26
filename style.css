@@ -838,7 +838,7 @@ h3{
     text-decoration: none;
     font-family: poppins,sans-serif;
 }
-body{
+.test_ei{
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/wallpaper3.jpg);
     background-size: cover;
 }
