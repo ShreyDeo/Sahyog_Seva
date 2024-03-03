@@ -710,6 +710,7 @@ h3{
   justify-content: center;
   padding: 50px 0;
   background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/wallpaper3.jpg) ;
+  background-size: cover;
 }
 
 .contentsection {
