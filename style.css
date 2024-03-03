@@ -846,7 +846,7 @@ h3{
 .container_ei{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
     min-height: 100%;
     width: 100%;
     flex-wrap: wrap;
