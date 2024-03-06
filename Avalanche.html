@@ -60,10 +60,27 @@
                     </div>
                  </div>
 
-            </div>
-               <button class="download-btn"> <i class="fa fa-download"></i> Download Pdf</button>
+               </div>
+               <button class="download-btn" onclick="downloadPdf()"> <i class="fa fa-download"></i> Download Pdf</button>
             </div>
        </div>
+       <script>
+         function downloadPdf() {
+             // Assuming your PDF file is named "example.pdf"
+             const pdfUrl = '1clickdownload.pdf';
+             
+             // Creating an invisible link element
+             const link = document.createElement('a');
+             link.href = pdfUrl;
+             link.target = '_blank'; // Opens the PDF file in a new tab
+             link.download = 'Disaster_Prep.pdf'; // Change the downloaded file name if needed
+             
+             // Appending the link to the body and triggering the click event
+             document.body.appendChild(link);
+             link.click();
+             document.body.removeChild(link);
+         }
+     </script>
        <!----about section ----->
        <div class="about_ei">
            <h1>About Avalanche</h1>
